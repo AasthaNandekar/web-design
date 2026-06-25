@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Style Product</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: rgb(232, 226, 226);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product-image img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.product-details {
+    flex: 1;
+    min-width: 300px;
+}
+
+.price {
+    color: #B12704;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rating {
+    color: #FFA41C;
+    font-size: 18px;
+}
+
+.about {
+    margin-top: 15px;
+}
+
+.cart-box {
+    margin-top: 20px;
+    background: #fafafa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-btn {
+    background: #FFD814;
+}
+
+.add-btn:hover {
+    background: #F7CA00;
+}
+
+.buy-btn {
+    background: #FFA41C;
+}
+
+.buy-btn:hover {
+    background: #FA8900;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="product-image">
+    <img src="https://imgs.search.brave.com/4ePGzFBo4XSnaedHoA50efIWwYbgmc1HtTofQW_g17Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4x/LnNtYXJ0cHJpeC5j/b20vcngtaWRGbjRU/aW9GLXcyODAtaDI4/MC9ib2F0LWFpcmRv/cGVzLTE2MS10ci53/ZWJw" alt="Wireless Headphones">
+</div>
+
+<div class="product-details">
+    <h2>boAt Rockerz 450 Bluetooth Headphones</h2>
+    <div class="rating">★★★★☆ (4.3 out of 5)</div>
+    <p class="price">₹2,999</p>
+
+    <div class="about">
+        <h3>About this item</h3>
+        <ul>  
+            <li>40mm Dynamic Drivers for immersive sound</li>
+            <li>15 Hours Playback Time</li>
+            <li>Lightweight & comfortable design</li>
+            <li>Bluetooth v4.2 with instant pairing</li>
+        </ul>
+    </div>
+
+    <div class="cart-box">
+        <label>Quantity:</label>
+        <select id="quantity">  
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <button class="add-btn" onclick="addToCart()">Add to Cart</button>
+        <button class="buy-btn">Buy Now</button>
+
+        <p id="cart-message" style="margin-top:10px; font-weight:bold"></p>
+        <p id="total-price"></p>
+    </div>
+</div>
+
+</div>
+
+<script>
+function addToCart() {
+    let price = 2999;
+    let qty = document.getElementById("quantity").value;
+    let total = price * qty;    
+
+    document.getElementById("cart-message").innerText = 
+        "Added to Cart ✔";
+
+    document.getElementById("total-price").innerText = 
+        "Cart Total: ₹" + total;
+}
+</script>
+<div class="container">
+
+<div class="product-image">
+    <img src="https://imgs.search.brave.com/ffc_i6qmOx0IbjGFPWj7kUVqUep5t5IBEIZSKBrTbdU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/Ym9hdC1saWZlc3R5/bGUuY29tL2Nkbi9z/aG9wL2ZpbGVzL0Fy/dGJvYXJkOV83N2Ew/YzhjZC02ZTMyLTRk/OTAtODg3Zi04Mzcx/ODQ1NmY0YTBfMTMw/MHguanBnP3Y9MTc2/NTc4NjU4Ng" alt="Smartwatch">
+</div>
+
+<div class="product-details">
+    <h2>boAt Chrome Horizon Premium Metal Boby Video Watch Face 1.51"(3.83cm) AMOLED Round Display HRV & VO2 Max Auto-Activity Detection ASAP Charge HRV Smartwatch for Men & Women (Midnight Black) </h2>
+    <div class="rating">★★★★☆ (3.9out of 5)</div>
+    <p class="price">₹2,999</p>
+
+    <div class="about">
+        <h3>About this item</h3>
+        <ul>
+            <li>84% positive rating from 100K+ customers</li>
+            <li>50K+ recent orders from this brand</li>
+            <li>10+ year on Amazon</li>
+        </ul>
+    </div>
+
+    <div class="cart-box">
+        <label>Quantity:</label>
+        <select id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <button class="add-btn" onclick="addToCart()">Add to Cart</button>
+        <button class="buy-btn">Buy Now</button>
+
+        <p id="cart-message" style="margin-top:10px; font-weight:bold;"></p>
+        <p id="total-price"></p>
+    </div>
+</div>
+
+</div>
+
+<script>
+function addToCart() {
+    let price = 2999;
+    let qty = document.getElementById("quantity").value;
+    let total = price * qty;
+
+    document.getElementById("cart-message").innerText = 
+        "Added to Cart ✔";
+
+    document.getElementById("total-price").innerText = 
+        "Cart Total: ₹" + total;
+}
+</script>
+
+</body>
+</html>

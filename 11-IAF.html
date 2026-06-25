@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Indian Air Force Web Application</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#e6f2ff;
+text-align:center;
+}
+
+/* Header */
+
+header{
+background:#003366;
+color:white;
+padding:20px;
+}
+
+/* Navigation */
+
+nav{
+background:#0055a5;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* Sections */
+
+section{
+padding:40px;
+}
+
+img{
+width:300px;
+height:200px;
+margin:10px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+/* Button */
+
+button{
+background-color:#0066cc;
+color:white;
+border:none;
+padding:10px 20px;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background-color:#004080;
+}
+
+#info{
+margin-top:20px;
+font-size:18px;
+color:#333;
+}
+
+footer{
+background:#003366;
+color:white;
+padding:10px;
+}
+
+</style>
+
+<script>
+
+function showInfo(){
+document.getElementById("info").innerHTML=
+"The Indian Air Force was established on 8 October 1932. It protects Indian airspace and supports national security.";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1>Indian Air Force</h1>
+<p>Touch The Sky With Glory</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#history">History</a>
+<a href="#video">Video</a>
+</nav>
+
+<!-- Home Section -->
+
+<section id="home">
+
+<h2>Welcome to Indian Air Force Website</h2>
+
+<p>The Indian Air Force is the air arm of the Indian Armed Forces responsible for protecting the airspace of India.</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Sukhoi_Su-30MKI.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Dassault_Rafale.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HAL_Tejas_LCA.jpg">
+
+<br><br>
+
+<button onclick="showInfo()">Click to Learn More</button>
+
+<p id="info"></p>
+
+</section>
+
+<!-- History Section -->
+
+<section id="history">
+
+<h2>History of Indian Air Force</h2>
+
+<p>
+The Indian Air Force was established on 8 October 1932 during British rule. 
+After India gained independence in 1947, it became an important part of national defense. 
+The Air Force has participated in several wars and humanitarian missions including 
+the 1965 and 1971 wars and disaster relief operations.
+</p>
+
+</section>
+
+<!-- Video Section -->
+
+<section id="video">
+
+<h2>Indian Air Force History Video</h2>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/9N6lB9kEJ7Q"
+title="Indian Air Force Video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</section>
+
+<footer>
+
+<p>Indian Air Force Web Application Project</p>
+
+</footer>
+
+</body>
+</html>

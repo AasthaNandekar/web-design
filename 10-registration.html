@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form Validation</title>
+
+<script>
+function validateForm() {
+
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let password = document.getElementById("password").value;
+let phone = document.getElementById("phone").value;
+
+if(name == ""){
+alert("Name cannot be empty");
+return false;
+}
+
+if(email == ""){
+alert("Email cannot be empty");
+return false;
+}
+
+if(!email.includes("@")){
+alert("Enter valid email");
+return false;
+}
+
+if(password.length < 6){
+alert("Password must be at least 6 characters");
+return false;
+}
+
+if(isNaN(phone) || phone.length != 10){
+alert("Enter valid 10 digit phone number");
+return false;
+}
+
+alert("Registration Successful!");
+return true;
+
+}
+</script>
+
+</head>
+
+<body>
+
+<h2>User Registration Form</h2>
+
+<form onsubmit="return validateForm()">
+
+Name:<br>
+<input type="text" id="name"><br><br>
+
+Email:<br>
+<input type="text" id="email"><br><br>
+
+Password:<br>
+<input type="password" id="password"><br><br>
+
+Phone Number:<br>
+<input type="text" id="phone"><br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>

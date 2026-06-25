@@ -1,0 +1,30 @@
+h1 {
+   text-align: center;
+   font-weight: 900;
+   text-decoration:wavy red underline;
+   letter-spacing: 18px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: justify;
+    font-weight: 300;
+    line-height: 2.5 ;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: left;
+    font-weight: 700;
+     text-decoration:double blue overline;
+}
+
+h3{
+    text-align: right;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: dotted green underline;
+}
