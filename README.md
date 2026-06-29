@@ -62,7 +62,7 @@ web-design/
 
 ---
 
-## 📁 Projects Included
+## 📁 Projects links
 
 | Project | Link |
 |---|---|
