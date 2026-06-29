@@ -61,11 +61,12 @@ web-design/
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:eraasthanandekar@gmail.com)
 
 ---
- (https://web-design.eraasthanandekar.workers.dev/index)
-  📝 `Registration` | User registration page with form validation |https://web-design.eraasthanandekar.workers.dev/10-registration
- 📋 `Registration Form` | Styled registration form UI |https://web-design.eraasthanandekar.workers.dev/6-registrationform
- 🔐 `Login ID` | Login page with username/password fields |https://web-design.eraasthanandekar.workers.dev/9-loginid
- 🛒 `Shopping Cart` | Shopping cart UI layout |https://web-design.eraasthanandekar.workers.dev/5-shoppingcart
- 🕐 `Timetable` | Weekly timetable/schedule layout |https://web-design.eraasthanandekar.workers.dev/3-Timetable
- 📄 `Resume Template` | Clean HTML/CSS resume template |https://web-design.eraasthanandekar.workers.dev/4-resumetemplate
+ 🏠 `index.html` | Main landing/home page |(https://web-design.eraasthanandekar.workers.dev/index)
+ 📝 `Registration` | User registration page with form validation |(https://web-design.eraasthanandekar.workers.dev/10-registration)
+ 📋 `Registration Form` | Styled registration form UI |(https://web-design.eraasthanandekar.workers.dev/6-registrationform)
+ 🔐 `Login ID` | Login page with username/password fields |(https://web-design.eraasthanandekar.workers.dev/9-loginid)
+ 🛒 `Shopping Cart` | Shopping cart UI layout |(https://web-design.eraasthanandekar.workers.dev/5-shoppingcart)
+ 🕐 `Timetable` | Weekly timetable/schedule layout |(https://web-design.eraasthanandekar.workers.dev/3-Timetable)
+ 📄 `Resume Template` | Clean HTML/CSS resume template |(https://web-design.eraasthanandekar.workers.dev/4-resumetemplate)
  ✈️ `IAF` | Indian Air Force themed webpage |(https://web-design.eraasthanandekar.workers.dev/11-IAF)
+---
