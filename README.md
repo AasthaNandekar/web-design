@@ -73,4 +73,3 @@ web-design/
 
 ---
 
-> 💡 *This repo is part of my journey to master Full Stack Web Development.*
