@@ -71,7 +71,7 @@ web-design/
 | 📋 Registration Form | [web-design.eraasthanandekar.workers.dev/6-registrationform] |
 | 🔐 Login ID | [web-design.eraasthanandekar.workers.dev/9-loginid] |
 | 🛒 Shopping Cart | [web-design.eraasthanandekar.workers.dev/5-shoppingcart]|
-| 🕐 Timetable | [web-design.eraasthanandekar.workers.dev/3-Timetable] |
+| 🕐 Timetable | [web-design.eraasthanandekar.workers.dev/3-Timetable] (https://web-design-bne.pages.dev/3-Timetable)|
 | 📄 Resume Template | [web-design.eraasthanandekar.workers.dev/4-resumetemplate] |
 
 
