@@ -66,13 +66,13 @@ web-design/
 
 | Project | Link |
 |---|---|
-| 🏠 Index | [web-design.eraasthanandekar.workers.dev/index](https://web-design.eraasthanandekar.workers.dev/index) |
-| 📝 Registration | [web-design.eraasthanandekar.workers.dev/10-registration](https://web-design.eraasthanandekar.workers.dev/10-registration) |
-| 📋 Registration Form | [web-design.eraasthanandekar.workers.dev/6-registrationform](https://web-design.eraasthanandekar.workers.dev/6-registrationform) |
-| 🔐 Login ID | [web-design.eraasthanandekar.workers.dev/9-loginid](https://web-design.eraasthanandekar.workers.dev/9-loginid) |
-| 🛒 Shopping Cart | [web-design.eraasthanandekar.workers.dev/5-shoppingcart](https://web-design.eraasthanandekar.workers.dev/5-shoppingcart) |
-| 🕐 Timetable | [web-design.eraasthanandekar.workers.dev/3-Timetable](https://web-design.eraasthanandekar.workers.dev/3-Timetable) |
-| 📄 Resume Template | [web-design.eraasthanandekar.workers.dev/4-resumetemplate](https://web-design.eraasthanandekar.workers.dev/4-resumetemplate) |
+| 🏠 Index | [web-design.eraasthanandekar.workers.dev/index] |
+| 📝 Registration | [web-design.eraasthanandekar.workers.dev/10-registration] |
+| 📋 Registration Form | [web-design.eraasthanandekar.workers.dev/6-registrationform] |
+| 🔐 Login ID | [web-design.eraasthanandekar.workers.dev/9-loginid] |
+| 🛒 Shopping Cart | [web-design.eraasthanandekar.workers.dev/5-shoppingcart]|
+| 🕐 Timetable | [web-design.eraasthanandekar.workers.dev/3-Timetable] |
+| 📄 Resume Template | [web-design.eraasthanandekar.workers.dev/4-resumetemplate] |
 
 
 ---
