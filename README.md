@@ -15,7 +15,7 @@ A collection of beginner to intermediate **HTML & CSS web design projects** buil
 | 🛒 `Shopping Cart` | Shopping cart UI layout |https://web-design.eraasthanandekar.workers.dev/5-shoppingcart
 | 🕐 `Timetable` | Weekly timetable/schedule layout |https://web-design.eraasthanandekar.workers.dev/3-Timetable
 | 📄 `Resume Template` | Clean HTML/CSS resume template |https://web-design.eraasthanandekar.workers.dev/4-resumetemplate
-| ✈️ `IAF` | Indian Air Force themed webpage |https://web-design.eraasthanandekar.workers.dev/11-IAF
+
 
 ---
 
@@ -73,7 +73,7 @@ web-design/
 | 🛒 Shopping Cart | [web-design.eraasthanandekar.workers.dev/5-shoppingcart](https://web-design.eraasthanandekar.workers.dev/5-shoppingcart) |
 | 🕐 Timetable | [web-design.eraasthanandekar.workers.dev/3-Timetable](https://web-design.eraasthanandekar.workers.dev/3-Timetable) |
 | 📄 Resume Template | [web-design.eraasthanandekar.workers.dev/4-resumetemplate](https://web-design.eraasthanandekar.workers.dev/4-resumetemplate) |
-| ✈️ IAF | [web-design.eraasthanandekar.workers.dev/11-IAF](https://web-design.eraasthanandekar.workers.dev/11-IAF) |
+
 
 ---
 
