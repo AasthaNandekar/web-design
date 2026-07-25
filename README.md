@@ -4,7 +4,7 @@ A collection of beginner to intermediate **HTML & CSS web design projects** buil
 
 ---
 
-## 📁 Projects Included
+# 📁 Projects Included
 
 | Project | Description |
 |---|---|
