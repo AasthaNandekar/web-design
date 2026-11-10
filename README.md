@@ -1,4 +1,4 @@
-# 🎨 Web Design Projects
+## 🎨 Web Design Projects
 
 A collection of beginner to intermediate **HTML & CSS web design projects** built to strengthen frontend development skills.
 
